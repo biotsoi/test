@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <embed src="music/beHappy.mp3" loop="true" autostart="true" height="0" width="0">
+
+    <section id="game_section">
+        <h1><i class="fas fa-brain"></i> Memory Game</h1>
+        <p class="game_info"><span>Game description :</span> When you press Start , the game will begin and colors will
+            be displayed for only 3 seconds. Then you should choose every two similar cards. Your score depends on the
+            number of hits ... GOOD LUCK </p>
+
+        <button id="start">Start</button>
+        <select id="level_select">
+            <option value="1">12 cards - Easy</option>
+            <option value="2">16 cards - Medium</option>
+            <option value="3">20 cards - Hard</option>
+
+        </select>
+        <div id="score_section">
+            <p id="high_score_p">High score <br /><span id="high_score"></span> hits in <span
+                    id="corr_time">00:00</span></p>
+            <p>Hits : <span id="hits"></span></p>
+
+            <p>Time : <span id="time">00:00</span></p>
+
+            <div class="clear"></div>
+        </div>
+
+        <div id="game_box">
+            <div id="game_info"></div>
+            <div class="card" id="card_1"></div>
+            <div class="card" id="card_2"></div>
+            <div class="card" id="card_3"></div>
+            <div class="card" id="card_4"></div>
+            <div class="card" id="card_5"></div>
+            <div class="card" id="card_6"></div>
+            <div class="card" id="card_7"></div>
+            <div class="card" id="card_8"></div>
+            <div class="card" id="card_9"></div>
+            <div class="card" id="card_10"></div>
+            <div class="card" id="card_11"></div>
+            <div class="card" id="card_12"></div>
+            <div class="card" id="card_13"></div>
+            <div class="card" id="card_14"></div>
+            <div class="card" id="card_15"></div>
+            <div class="card" id="card_16"></div>
+            <div class="card" id="card_17"></div>
+            <div class="card" id="card_18"></div>
+            <div class="card" id="card_19"></div>
+            <div class="card" id="card_20"></div>
+
+        </div>
+    </section>
+   <script src="test.js"></script>
+</body>
+
+</html>
